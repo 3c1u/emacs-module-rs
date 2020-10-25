@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
+- Replaced `failure` with `anyhow` and `thiserror`. Re-export `anyhow` as `emacs::error::anyhow`.
 
 ## [0.14.1] - 2020-10-14
 - Fixed proc macro's hygiene issues, for compatibility with Rust 1.47. Example: `emacs-tree-sitter` [fails to compile](https://github.com/ubolonton/emacs-tree-sitter/issues/62).
